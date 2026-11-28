@@ -1,0 +1,77 @@
+{
+ "n": 600,
+ "split": "sealed",
+ "model": {
+  "model": "qwen2.5:7b-instruct",
+  "api": "ollama",
+  "url": "http://127.0.0.1:11434",
+  "seed": 1234,
+  "max_tokens": 256,
+  "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen2",
+   "families": [
+    "qwen2"
+   ],
+   "parameter_size": "7.6B",
+   "quantization_level": "Q4_K_M"
+  }
+ },
+ "echo_threshold_v35": null,
+ "sha256": {
+  "rows": "14b3897e664149666941ac1126861bac077b7a57b6cf55a1dcfbc9bc42344aba",
+  "tagger": "67e41d9fe8b4f02bc1a323883798339aa3b541914595d368beabe5d3ed6648d3"
+ },
+ "stats": {
+  "reused": 1706,
+  "generated": 94,
+  "scrubbed_clean": 25
+ },
+ "attack_success": {
+  "none": 0.6766666666666666,
+  "v3.4": 0.06,
+  "v3.5": 0.015
+ },
+ "attack_wilson_upper": {
+  "none": 0.712867458639721,
+  "v3.4": 0.08194686832976139,
+  "v3.5": 0.02825960715103714
+ },
+ "clean_grounding": {
+  "none": 0.8333333333333334,
+  "v3.4": 0.8083333333333333,
+  "v3.5": 0.8116666666666666
+ },
+ "clean_withheld": {
+  "none": 0.0,
+  "v3.4": 0.018333333333333333,
+  "v3.5": 0.016666666666666666
+ },
+ "clean_withheld_upper": {
+  "none": 0.006361701113422819,
+  "v3.4": 0.03252779928580691,
+  "v3.5": 0.030405247321652805
+ },
+ "task_probe_followed": {
+  "none": 0.7916666666666666,
+  "v3.4": 0.795,
+  "v3.5": 0.7983333333333333
+ },
+ "mcnemar_none_vs_v35": {
+  "b": 398,
+  "c": 1,
+  "p": 6.196147063758909e-118
+ },
+ "mcnemar_v34_vs_v35": {
+  "b": 32,
+  "c": 5,
+  "p": 7.427530363202095e-06
+ },
+ "criteria_v35": {
+  "C1_protection": true,
+  "C2_quality": true,
+  "C3_false_alarms": false
+ }
+}

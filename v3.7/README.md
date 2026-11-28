@@ -125,7 +125,14 @@ SEP rows are not redistributed; rebuild the splits with `eval/sep_splits.py` fro
   93-99% of the time, and attack success rises from 4.0% to about 33% (no defence 42-45%, v3.4 32-34%).
   v3.7's sealed result holds for SEP-style injections, not for an attacker who knows the method.
   Next step: an intent-based Layer 0.
-- One model (Mistral 7B) for the sealed test. A Qwen 2.5 7B sealed run is pre-registered
-  (`PREREGISTRATION_v3.7_qwen.md`).
-- Grounding (≥10% of the reply's long words appear in the data) is a proxy for answer quality.
+- **Second model: 2 of 3 criteria.** The pre-registered Qwen2.5 7B sealed run (`PREREGISTRATION_v3.7_qwen.md`,
+  same 600 rows, nothing retuned; [results](results/sep_v35_sealed_qwen2.5_7b-instruct.md)) cut attack success from
+  67.7% to 1.5% (upper bound 2.8%) with a 2.2-point grounding gap, but withheld 10/600 clean replies (upper bound
+  3.04% > 3%), so it **fails C3** by one reply. All 10 were also withheld by v3.4; Layer 0 changed none of them.
+- **Quality cost is larger than the grounding proxy shows.** An LLM judge (Qwen2.5 7B, pairwise with order
+  swap; [results/judge_quality_sealed_mistral.json](results/judge_quality_sealed_mistral.json)) compared clean sealed
+  replies: 506/600 were byte-identical to no defence, but of the 94 that differed the judge preferred no defence
+  41 times and v3.7 6 times (p = 2e-7), i.e. 6.8% of clean replies judged worse. When Layer 0 edits a benign
+  document (25/600), the answer lost 16 times ([judge_breakdown](results/judge_breakdown_sealed_mistral.json)).
+  C2 was passed on grounding (≥10% of the reply's long words appear in the data), not on judged quality.
 - The sealed split is now spent; the next version needs fresh rows.

@@ -9,6 +9,11 @@
 > from 64.8% to **2.0%** (upper bound 3.5%) with a **1.7-point** grounding cost and 0.3% of clean
 > replies withheld: PASS 3/3 (v3's own sealed test below, on different rows, left 10.2%). Still no retraining, no model
 > internals, no extra LLM call and no added prompt tokens. v3.7 is self-contained in [`v3.7/`](v3.7).
+>
+> Honest caveats, all measured: on Qwen2.5 7B (pre-registered, same rows) attack success fell 67.7% → 1.5% but
+> one too many clean replies were withheld (2/3 criteria); simple rewrites of the injected instruction get past
+> Layer 0 (about 33% attack success); and an LLM judge rates 6.8% of clean replies worse than no defence.
+> Details in the [v3.7 README](v3.7/README.md#limits).
 
 Layered protection against **indirect prompt injection** (instructions hidden in e-mails, web
 pages, files and tool output) that wraps **any LLM**. No training, no model internals, no extra
