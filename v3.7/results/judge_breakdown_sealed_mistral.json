@@ -1,0 +1,22 @@
+{
+ "reply_text_edited": {
+  "v3.7": 0,
+  "none": 7,
+  "tie": 10
+ },
+ "layer0": {
+  "v3.7": 1,
+  "none": 16,
+  "tie": 8
+ },
+ "displaced": {
+  "v3.7": 5,
+  "none": 16,
+  "tie": 29
+ },
+ "withheld": {
+  "v3.7": 0,
+  "none": 2,
+  "tie": 0
+ }
+}

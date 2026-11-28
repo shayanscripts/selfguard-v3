@@ -1,0 +1,2 @@
+# Frozen sealed-test script: hashed with CRLF line endings in FROZEN_v3.5.sha256; keep its bytes exactly.
+eval/sep_v35.py -text

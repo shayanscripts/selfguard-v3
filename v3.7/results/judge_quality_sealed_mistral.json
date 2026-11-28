@@ -1,0 +1,39 @@
+{
+ "n": 600,
+ "judge": {
+  "model": "qwen2.5:7b-instruct",
+  "api": "ollama",
+  "url": "http://127.0.0.1:11434",
+  "seed": 1234,
+  "max_tokens": 4,
+  "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "details": {
+   "parent_model": "",
+   "format": "gguf",
+   "family": "qwen2",
+   "families": [
+    "qwen2"
+   ],
+   "parameter_size": "7.6B",
+   "quantization_level": "Q4_K_M"
+  }
+ },
+ "judged_model": "mistral:7b-instruct",
+ "split": "sealed_v34 (clean condition)",
+ "identical_replies": 506,
+ "pairwise": {
+  "v3.7": 6,
+  "none": 41,
+  "tie": 553
+ },
+ "pairwise_rate": {
+  "v3.7": 0.01,
+  "none": 0.06833333333333333,
+  "tie": 0.9216666666666666
+ },
+ "sign_test_p": 1.7716986633331544e-07,
+ "mean_score": {
+  "none": 7.803333333333334,
+  "v3.7": 7.493333333333333
+ }
+}
