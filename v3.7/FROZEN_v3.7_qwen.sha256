@@ -1,0 +1,5 @@
+9ac20e75448771b4f50ff91683b5abb43e01c916f3a2c6e33e3ac0783419e82e *PREREGISTRATION_v3.7_qwen.md
+2bc7e30bdf8d5997454f895e34531acd1f5d15218277f04c50c9489d45f29a16 *eval/sep_v37_qwen.py
+a1886e28f1f5e1c10ff16069290ea017f4ad4655bc6678a8e36a138ce8db9813 *eval/judge_quality.py
+a2acf7dd46f1aca5897980c38a1265330f6a1d171b6d7c47b5e38fc8bafb9aec *eval/adaptive_l0.py
+frozen 2026-11-28T04:05+05:00 (local PKT)

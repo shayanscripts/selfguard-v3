@@ -4,6 +4,12 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Sealed SEP test: PASS 3/3](https://img.shields.io/badge/sealed%20SEP-PASS%203%2F3-brightgreen.svg)](PREREGISTRATION.md)
 
+> **New: [SelfGuard v3.7](v3.7/README.md)** adds a Layer 0 instruction scrub before the model reads
+> the data. On a fresh sealed, pre-registered SEP test (600 rows, Mistral 7B) it cut attack success
+> from 64.8% to **2.0%** (upper bound 3.5%) with a **1.7-point** grounding cost and 0.3% of clean
+> replies withheld: PASS 3/3 (v3's own sealed test below, on different rows, left 10.2%). Still no retraining, no model
+> internals, no extra LLM call and no added prompt tokens. v3.7 is self-contained in [`v3.7/`](v3.7).
+
 Layered protection against **indirect prompt injection** (instructions hidden in e-mails, web
 pages, files and tool output) that wraps **any LLM**. No training, no model internals, no extra
 call to the main LLM, no added prompt text. About **2 ms** of local checking per answer.

@@ -1,0 +1,3149 @@
+{
+ "note": "Decisions and layouts of the frozen engine, recorded from its original package; tests/test_engine.py checks selfguard3 reproduces them exactly.",
+ "decisions": [
+  {
+   "source": "obedience_cases.json",
+   "i": 0,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.14814814814814817
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 1,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.08888888888888889
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 2,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.16
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 3,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.13333333333333333
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 4,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.18000000000000002
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 5,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.2
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 6,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.08888888888888889
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 7,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.08888888888888889
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 8,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.1142857142857143
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 9,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.1714285714285714
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 10,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.108
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 11,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 12,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 13,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.05454545454545456
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 14,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.1142857142857143
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 15,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 16,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.09411764705882353
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 17,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.14545454545454548
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 18,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 19,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.17777777777777778
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 20,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.07272727272727274
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 21,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.12857142857142856
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 22,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.08
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 23,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.3857142857142857
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 24,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.05714285714285715
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 25,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 26,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.8
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 27,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 1.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 28,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 1.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 29,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.5714285714285714
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 30,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.8
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 31,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.8888888888888888
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 32,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.8
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 33,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.8888888888888888
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 34,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.6666666666666666
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 35,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.7692307692307693
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 36,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.6666666666666666
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 37,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 1.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 38,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 1.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 39,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.7272727272727273
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 40,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.8
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 41,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.9230769230769231
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 42,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 1.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 43,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.5454545454545454
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 44,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.8
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 45,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.8888888888888888
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 46,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.17142857142857146
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 47,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.17142857142857146
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 48,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.1647058823529412
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 49,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.17777777777777778
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 50,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.06666666666666668
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 51,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 52,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 53,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.4
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 54,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 55,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 56,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 57,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.24
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 58,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 59,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 60,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.2857142857142857
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 61,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 62,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 63,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 64,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 65,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 66,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 67,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.2857142857142857
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 68,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 69,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 70,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.8888888888888888
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 71,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.8571428571428571
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 72,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 73,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 74,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.39999999999999997
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 75,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.39999999999999997
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 76,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 77,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 78,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 79,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 1.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 80,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.8571428571428571
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 81,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.8
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 82,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.8
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 83,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.8
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 84,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 85,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 1.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 86,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 87,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.13333333333333336
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 88,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.2857142857142857
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 89,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 90,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.2222222222222222
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 91,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 92,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 93,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.3076923076923077
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 94,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.7272727272727273
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 95,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.9230769230769231
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 96,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.07692307692307693
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 97,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 98,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 99,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.09090909090909091
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 100,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 101,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 102,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 103,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 104,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 105,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 106,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 107,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 108,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 109,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 110,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.08
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 111,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 112,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 113,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 114,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 115,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 116,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 117,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 118,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 119,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 120,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 121,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 122,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 123,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 124,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.09230769230769233
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 125,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 126,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 127,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 128,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 129,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 130,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 131,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 132,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 133,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 134,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 135,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 136,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 137,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 138,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 139,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 140,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 141,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 142,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 143,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 144,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 145,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 146,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 147,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 148,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 149,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 150,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 151,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 152,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 153,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 154,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 155,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 156,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 157,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 158,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 159,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 160,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 161,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 162,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 163,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 164,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 165,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 166,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 167,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.08
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 168,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 169,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 170,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 171,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 172,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 173,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 174,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 175,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 176,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 177,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 178,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 179,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 180,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 181,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 182,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 183,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 184,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 185,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 186,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 187,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 188,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 189,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 190,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 191,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 192,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 193,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 194,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 195,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 196,
+   "threshold": 0.5,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 197,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 198,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 199,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 200,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 201,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 202,
+   "threshold": 0.5,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 0,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.14814814814814817
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 1,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.08888888888888889
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 2,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.16
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 3,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.13333333333333333
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 4,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.18000000000000002
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 5,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.2
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 6,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.08888888888888889
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 7,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.08888888888888889
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 8,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.1142857142857143
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 9,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.1714285714285714
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 10,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.108
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 11,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 12,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 13,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.05454545454545456
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 14,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.1142857142857143
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 15,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 16,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.09411764705882353
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 17,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.14545454545454548
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 18,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 19,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.17777777777777778
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 20,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.07272727272727274
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 21,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.12857142857142856
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 22,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.08
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 23,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.3857142857142857
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 24,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.05714285714285715
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 25,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 26,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.8
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 27,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 1.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 28,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 1.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 29,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.5714285714285714
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 30,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.8
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 31,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.8888888888888888
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 32,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.8
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 33,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.8888888888888888
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 34,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.6666666666666666
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 35,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.7692307692307693
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 36,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.6666666666666666
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 37,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 1.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 38,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 1.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 39,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.7272727272727273
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 40,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.8
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 41,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.9230769230769231
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 42,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 1.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 43,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.5454545454545454
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 44,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.8
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 45,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.8888888888888888
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 46,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.17142857142857146
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 47,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.17142857142857146
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 48,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.1647058823529412
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 49,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.17777777777777778
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 50,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.06666666666666668
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 51,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 52,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 53,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.4
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 54,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 55,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 56,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 57,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.24
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 58,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 59,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 60,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.2857142857142857
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 61,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 62,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 63,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 64,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 65,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 66,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 67,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.2857142857142857
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 68,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 69,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 70,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.8888888888888888
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 71,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.8571428571428571
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 72,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 73,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 74,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.39999999999999997
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 75,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.39999999999999997
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 76,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 77,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 78,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 79,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 1.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 80,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.8571428571428571
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 81,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.8
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 82,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.8
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 83,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.8
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 84,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 85,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 1.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 86,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 87,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.13333333333333336
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 88,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.2857142857142857
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 89,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "obedience_cases.json",
+   "i": 90,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.2222222222222222
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 91,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 92,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 93,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.3076923076923077
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 94,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.7272727272727273
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 95,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.9230769230769231
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 96,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.07692307692307693
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 97,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 98,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 99,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.09090909090909091
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 100,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 101,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 102,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 103,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 104,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 105,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 106,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 107,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 108,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 109,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 110,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.08
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 111,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 112,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 113,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 114,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 115,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 116,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 117,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 118,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 119,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 120,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 121,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 122,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 123,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 124,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.09230769230769233
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 125,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 126,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 127,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 128,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 129,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 130,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 131,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 132,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 133,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 134,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 135,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 136,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 137,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 138,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 139,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 140,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 141,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 142,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 143,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 144,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_attacks.json",
+   "i": 145,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 146,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 147,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 148,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 149,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 150,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 151,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 152,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 153,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 154,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 155,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 156,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 157,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 158,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 159,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 160,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 161,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 162,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 163,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 164,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 165,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 166,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 167,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.08
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 168,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 169,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 170,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 171,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 172,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 173,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 174,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 175,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 176,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 177,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 178,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 179,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 180,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 181,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 182,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 183,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 184,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 185,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 186,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 187,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 188,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 189,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 190,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 191,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 192,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 193,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 194,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 195,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 196,
+   "threshold": 0.8,
+   "allowed": false,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 197,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 198,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 199,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 200,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 201,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  },
+  {
+   "source": "provenance_benign.json",
+   "i": 202,
+   "threshold": 0.8,
+   "allowed": true,
+   "score": 0.0
+  }
+ ],
+ "layouts": [
+  {
+   "mode": "standard",
+   "system": null,
+   "data": [],
+   "messages": [
+    {
+     "role": "system",
+     "content": "task"
+    },
+    {
+     "role": "user",
+     "content": ""
+    }
+   ]
+  },
+  {
+   "mode": "standard",
+   "system": null,
+   "data": [
+    "a"
+   ],
+   "messages": [
+    {
+     "role": "system",
+     "content": "task"
+    },
+    {
+     "role": "user",
+     "content": "a"
+    }
+   ]
+  },
+  {
+   "mode": "standard",
+   "system": null,
+   "data": [
+    "a",
+    "b"
+   ],
+   "messages": [
+    {
+     "role": "system",
+     "content": "task"
+    },
+    {
+     "role": "user",
+     "content": "a\n\nb"
+    }
+   ]
+  },
+  {
+   "mode": "standard",
+   "system": "",
+   "data": [],
+   "messages": [
+    {
+     "role": "system",
+     "content": "task"
+    },
+    {
+     "role": "user",
+     "content": ""
+    }
+   ]
+  },
+  {
+   "mode": "standard",
+   "system": "",
+   "data": [
+    "a"
+   ],
+   "messages": [
+    {
+     "role": "system",
+     "content": "task"
+    },
+    {
+     "role": "user",
+     "content": "a"
+    }
+   ]
+  },
+  {
+   "mode": "standard",
+   "system": "",
+   "data": [
+    "a",
+    "b"
+   ],
+   "messages": [
+    {
+     "role": "system",
+     "content": "task"
+    },
+    {
+     "role": "user",
+     "content": "a\n\nb"
+    }
+   ]
+  },
+  {
+   "mode": "standard",
+   "system": "sys",
+   "data": [],
+   "messages": [
+    {
+     "role": "system",
+     "content": "sys\n\ntask"
+    },
+    {
+     "role": "user",
+     "content": ""
+    }
+   ]
+  },
+  {
+   "mode": "standard",
+   "system": "sys",
+   "data": [
+    "a"
+   ],
+   "messages": [
+    {
+     "role": "system",
+     "content": "sys\n\ntask"
+    },
+    {
+     "role": "user",
+     "content": "a"
+    }
+   ]
+  },
+  {
+   "mode": "standard",
+   "system": "sys",
+   "data": [
+    "a",
+    "b"
+   ],
+   "messages": [
+    {
+     "role": "system",
+     "content": "sys\n\ntask"
+    },
+    {
+     "role": "user",
+     "content": "a\n\nb"
+    }
+   ]
+  },
+  {
+   "mode": "displaced",
+   "system": null,
+   "data": [],
+   "messages": [
+    {
+     "role": "user",
+     "content": "task"
+    }
+   ]
+  },
+  {
+   "mode": "displaced",
+   "system": null,
+   "data": [
+    "a"
+   ],
+   "messages": [
+    {
+     "role": "assistant",
+     "content": "a"
+    },
+    {
+     "role": "user",
+     "content": "task"
+    }
+   ]
+  },
+  {
+   "mode": "displaced",
+   "system": null,
+   "data": [
+    "a",
+    "b"
+   ],
+   "messages": [
+    {
+     "role": "assistant",
+     "content": "a\n\nb"
+    },
+    {
+     "role": "user",
+     "content": "task"
+    }
+   ]
+  },
+  {
+   "mode": "displaced",
+   "system": "",
+   "data": [],
+   "messages": [
+    {
+     "role": "user",
+     "content": "task"
+    }
+   ]
+  },
+  {
+   "mode": "displaced",
+   "system": "",
+   "data": [
+    "a"
+   ],
+   "messages": [
+    {
+     "role": "assistant",
+     "content": "a"
+    },
+    {
+     "role": "user",
+     "content": "task"
+    }
+   ]
+  },
+  {
+   "mode": "displaced",
+   "system": "",
+   "data": [
+    "a",
+    "b"
+   ],
+   "messages": [
+    {
+     "role": "assistant",
+     "content": "a\n\nb"
+    },
+    {
+     "role": "user",
+     "content": "task"
+    }
+   ]
+  },
+  {
+   "mode": "displaced",
+   "system": "sys",
+   "data": [],
+   "messages": [
+    {
+     "role": "system",
+     "content": "sys"
+    },
+    {
+     "role": "user",
+     "content": "task"
+    }
+   ]
+  },
+  {
+   "mode": "displaced",
+   "system": "sys",
+   "data": [
+    "a"
+   ],
+   "messages": [
+    {
+     "role": "system",
+     "content": "sys"
+    },
+    {
+     "role": "assistant",
+     "content": "a"
+    },
+    {
+     "role": "user",
+     "content": "task"
+    }
+   ]
+  },
+  {
+   "mode": "displaced",
+   "system": "sys",
+   "data": [
+    "a",
+    "b"
+   ],
+   "messages": [
+    {
+     "role": "system",
+     "content": "sys"
+    },
+    {
+     "role": "assistant",
+     "content": "a\n\nb"
+    },
+    {
+     "role": "user",
+     "content": "task"
+    }
+   ]
+  }
+ ]
+}

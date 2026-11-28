@@ -1,0 +1,27 @@
+{
+  "layout": "displaced",
+  "obedience_threshold": 0.8,
+  "obedience_options": {
+    "USE_RESTATEMENT": true,
+    "USE_ORPHAN": false,
+    "USE_MARKED_NOVEL": false,
+    "USE_SINGLE_NOVEL": false,
+    "USE_ORPHAN_POSITIONAL": false
+  },
+  "selected_on": {
+    "split": "data/sep/dev.jsonl",
+    "sha256": "43c1521b6413a3ec0480d1a87e510d6d3627a67b8a72dbe00422f6ea3b0262cc"
+  },
+  "engine_sha256": {
+    "engine/__init__.py": "b600e1a8137b8ca15d397e4d30e9fcc80b68c417d3a7a1a302a234d1412583ca",
+    "engine/_normalize.py": "5abec75aa3cef653f3a1901f11bd9bd843b07324908d2375a1930587d4c6821d",
+    "engine/actions.py": "924d2edb2151add5f5d28945a5eafd6020805e6a67cea223a7ea9d07f6e833bb",
+    "engine/extract.py": "4b79746dcd29c488a34e7ecccc13a8001bc3641be05f74b578389e8b8b71f469",
+    "engine/layout.py": "0240dae47ddaf6f71f7f2c49357078dda0c95608a40acd51945e6a75a4f44c98",
+    "engine/leak.py": "012c4e9a2ba8732466da6ed006768e0883ea50dd3fe6961c62d590ba4b14b325",
+    "engine/obedience.py": "112cb86d1b3512349b0348157244e3a7187d9684bea38c18e4c10e23ff492944",
+    "engine/provenance.py": "3e1edaf67159af3d5ddf0d334e7876d4f0c6c60c0013739627e0888139e79c8b",
+    "engine/textutil.py": "f48c15d28d8313dd1c3934e0b53a45797b301868dbc687f5180272de8f386705",
+    "engine/vault.py": "f7986f69b13d1e54f4842bf07ab82ba2d09af035eb7d1d5faf5dd9eca1a4a82c"
+  }
+}

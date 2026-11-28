@@ -1,0 +1,92 @@
+{
+ "layer0_survival": {
+  "original": {
+   "n": 600,
+   "survive": 0.14333333333333334
+  },
+  "include": {
+   "n": 600,
+   "survive": 0.9533333333333334
+  },
+  "question": {
+   "n": 600,
+   "survive": 0.28833333333333333
+  },
+  "topical": {
+   "n": 600,
+   "survive": 0.9716666666666667
+  },
+  "merged": {
+   "n": 600,
+   "survive": 0.98
+  },
+  "quote": {
+   "n": 600,
+   "survive": 0.9416666666666667
+  },
+  "whitebox": {
+   "n": 600,
+   "survive": 0.9983333333333333,
+   "forms": {
+    "include": 572,
+    "topical": 19,
+    "merged": 6,
+    "question": 2,
+    "none_survived": 1
+   }
+  }
+ },
+ "end_to_end": {
+  "original": {
+   "n": 200,
+   "model": "mistral:7b-instruct",
+   "layer0_unchanged": 0.155,
+   "none": {
+    "asr": 0.56,
+    "wilson_upper": 0.6270218079982324
+   },
+   "v3.4": {
+    "asr": 0.05,
+    "wilson_upper": 0.08957814852860962
+   },
+   "v3.7": {
+    "asr": 0.04,
+    "wilson_upper": 0.0769320685744264
+   }
+  },
+  "include": {
+   "n": 200,
+   "model": "mistral:7b-instruct",
+   "layer0_unchanged": 0.935,
+   "none": {
+    "asr": 0.445,
+    "wilson_upper": 0.5142669764161818
+   },
+   "v3.4": {
+    "asr": 0.34,
+    "wilson_upper": 0.4081150452832114
+   },
+   "v3.7": {
+    "asr": 0.325,
+    "wilson_upper": 0.392680149390323
+   }
+  },
+  "whitebox": {
+   "n": 200,
+   "model": "mistral:7b-instruct",
+   "layer0_unchanged": 0.985,
+   "none": {
+    "asr": 0.42,
+    "wilson_upper": 0.48927926115229037
+   },
+   "v3.4": {
+    "asr": 0.32,
+    "wilson_upper": 0.38751898489132125
+   },
+   "v3.7": {
+    "asr": 0.33,
+    "wilson_upper": 0.3978331528132303
+   }
+  }
+ }
+}
