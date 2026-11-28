@@ -44,6 +44,11 @@ def main():
     for b in a.bench:
         its = A.items(b, a.aside)
         random.Random(0).shuffle(its)
+        if b == "sep":   # SEP scores (task, data) pairs: keep both items of a row adjacent
+            first = {}
+            for j, it in enumerate(its):
+                first.setdefault(it[0].split(":")[0], j)
+            its.sort(key=lambda it: (first[it[0].split(":")[0]], it[0]))
         order[b] = its
         base[b] = {}
         for l in open(os.path.join(HERE, "results", "cache", f"aside_{b}_{tag}.jsonl"), encoding="utf-8"):

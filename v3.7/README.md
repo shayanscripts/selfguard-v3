@@ -89,6 +89,22 @@ model. Not compared: trained detectors (PromptGuard, ProtectAI), fine-tuned mode
 SecAlign) and defenses that make extra LLM calls (MELON, CaMeL, PromptArmor), since they break
 the constraints above.
 
+### 4. On ASIDE's indirect-injection benchmarks (not pre-registered)
+ASIDE's own evaluation code, Mistral 7B, the same random 2,300 items per benchmark for every arm
+(`eval/aside_v37.py`, [results/aside_v37_mistral_7b-instruct.json](results/aside_v37_mistral_7b-instruct.json)).
+Attack success, lower is better (SEP: separation, higher is better).
+
+| Benchmark | No defence | v3.4 | **v3.7** |
+|---|---:|---:|---:|
+| BIPIA-text | 39.1% | 7.3% | **0.0%** |
+| BIPIA-code | 38.4% | 22.0% | **1.0%** |
+| SEP full set (1,150 pairs), separation | 38.4% | 94.5% | **98.0%** |
+| StruQ in-domain | 76.5% | 4.1% | 6.9% |
+| StruQ out-of-domain | 63.0% | 4.6% | 6.2% |
+
+StruQ is slightly worse than v3.4, mostly because v3.7 switches off the echo strip, which removed the
+injected "Hacked!" from v3.4's replies.
+
 ## Usage
 
 ```python
